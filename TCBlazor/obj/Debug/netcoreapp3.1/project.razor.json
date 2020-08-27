@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -1764266504,
+        "Kind": "Components.Component",
+        "Name": "TCBlazor.App",
+        "AssemblyName": "TCBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TCBlazor.App"
+        }
+      },
+      {
+        "HashCode": -64429976,
+        "Kind": "Components.Component",
+        "Name": "TCBlazor.App",
+        "AssemblyName": "TCBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TCBlazor.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TCBlazor.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 874567117,
         "Kind": "Components.Component",
         "Name": "TCBlazor.Pages.Counter",
@@ -41,39 +74,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TCBlazor.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -478193748,
-        "Kind": "Components.Component",
-        "Name": "TCBlazor.Pages.Index",
-        "AssemblyName": "TCBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1178839658,
-        "Kind": "Components.Component",
-        "Name": "TCBlazor.Pages.Index",
-        "AssemblyName": "TCBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TCBlazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,88 +144,35 @@
         }
       },
       {
-        "HashCode": -1528589614,
+        "HashCode": -478193748,
         "Kind": "Components.Component",
-        "Name": "TCBlazor.Shared.NavMenu",
+        "Name": "TCBlazor.Pages.Index",
         "AssemblyName": "TCBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.Shared.NavMenu"
+          "Common.TypeName": "TCBlazor.Pages.Index"
         }
       },
       {
-        "HashCode": 1138807754,
+        "HashCode": -1178839658,
         "Kind": "Components.Component",
-        "Name": "TCBlazor.Shared.NavMenu",
+        "Name": "TCBlazor.Pages.Index",
         "AssemblyName": "TCBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TCBlazor.Shared.NavMenu"
+            "TagName": "TCBlazor.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -914851013,
-        "Kind": "Components.Component",
-        "Name": "TCBlazor.Shared.SurveyPrompt",
-        "AssemblyName": "TCBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1314374908,
-        "Kind": "Components.Component",
-        "Name": "TCBlazor.Shared.SurveyPrompt",
-        "AssemblyName": "TCBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TCBlazor.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.Shared.SurveyPrompt",
+          "Common.TypeName": "TCBlazor.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,35 +273,88 @@
         }
       },
       {
-        "HashCode": -1764266504,
+        "HashCode": -1528589614,
         "Kind": "Components.Component",
-        "Name": "TCBlazor.App",
+        "Name": "TCBlazor.Shared.NavMenu",
         "AssemblyName": "TCBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.App"
+          "Common.TypeName": "TCBlazor.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -64429976,
+        "HashCode": 1138807754,
         "Kind": "Components.Component",
-        "Name": "TCBlazor.App",
+        "Name": "TCBlazor.Shared.NavMenu",
         "AssemblyName": "TCBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TCBlazor.App"
+            "TagName": "TCBlazor.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TCBlazor.App",
+          "Common.TypeName": "TCBlazor.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -914851013,
+        "Kind": "Components.Component",
+        "Name": "TCBlazor.Shared.SurveyPrompt",
+        "AssemblyName": "TCBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TCBlazor.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1314374908,
+        "Kind": "Components.Component",
+        "Name": "TCBlazor.Shared.SurveyPrompt",
+        "AssemblyName": "TCBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TCBlazor.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TCBlazor.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
