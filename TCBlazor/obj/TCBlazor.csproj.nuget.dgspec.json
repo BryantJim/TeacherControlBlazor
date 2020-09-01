@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AnthonyB\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AnthonyB\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnthonyB\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj",
         "projectName": "TCBlazor",
-        "projectPath": "C:\\Users\\AnthonyB\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj",
-        "packagesPath": "C:\\Users\\AnthonyB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnthonyB\\Desktop\\TeacherControlBlazor\\TCBlazor\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\TeacherControlBlazor\\TCBlazor\\TCBlazor.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\TeacherControlBlazor\\TCBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AnthonyB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -45,6 +49,12 @@
               "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.7, )"
             }
@@ -67,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
